@@ -13,3 +13,5 @@ RoxygenNote: 6.0.1
 LinkingTo: Rcpp
 Imports: Rcpp
 Suggests: sp
+URL: http://github.com/FelixMay/shapeconnect
+BugReports: https://github.com/FelixMay/shapeconnect/issues

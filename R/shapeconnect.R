@@ -20,6 +20,11 @@ NULL
 #' @param cell_size Cell size of the input raster (side length in meter)
 #'
 #' @return Dataframe with three columns
+#' #' \enumerate{
+#'   \item Fragment ID
+#'   \item Fragment area in ha (multiple of cell_size^2)
+#'   \item Fragment-level connectivity index
+#' }
 #'
 #' @export
 #'
