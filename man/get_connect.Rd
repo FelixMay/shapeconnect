@@ -19,6 +19,11 @@ can be either a integer matrix of a \code{\link[sp]{SpatialGridDataFrame}}}
 }
 \value{
 Dataframe with three columns
+#' \enumerate{
+  \item Fragment ID
+  \item Fragment area in ha (multiple of cell_size^2)
+  \item Fragment-level connectivity index
+}
 }
 \description{
 Calculate a connectivity index from a binary habitat raster, which considers
@@ -30,7 +35,6 @@ library(sp)
 lsc_raster <- read.asciigrid(system.file("extdata", "lachish_20m.txt", package = "shapeconnect"))
 plot(lsc_raster)
 connect_dat <- get_connect(lsc_raster, alpha = 50, cell_size = 10)
-
 
 }
 \references{

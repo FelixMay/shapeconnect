@@ -23,7 +23,8 @@ fragment distance, shapes and areas. Therefore, it is well suited for landscapes
 with irregular fragment shapes.
 
 See Equations 5 and 6 in May et al. 2013a for a definition of the index and
-see May et al. 2013b for another application example.
+see [May et al. 2013b](http://www.sciencedirect.com/science/article/pii/S1433831913000590)
+for another application example.
 
 ## Installation
 
